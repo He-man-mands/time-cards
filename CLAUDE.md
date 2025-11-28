@@ -6,21 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Time Cards is a spaced repetition flashcard learning application built with React and Vite. It allows users to create flashcards with questions and answers, then practice them through an interactive study mode with flip animations. Card metadata (review count, last reviewed date) is tracked to support spaced repetition learning algorithms in future versions. Data persists to browser localStorage.
 
-## Development Commands
+## Development Guidelines
 
-```bash
-# Start development server (HMR enabled on http://localhost:5173)
-npm run dev
-
-# Build for production
-npm run build
-
-# Run ESLint across entire project
-npm run lint
-
-# Preview production build locally
-npm run preview
-```
+- Buttons should have rounded corners
 
 ## Architecture Overview
 
