@@ -8,7 +8,8 @@ Time Cards is a spaced repetition flashcard learning application built with Reac
 
 ## Development Guidelines
 
-- No Rounded Corners for buttons
+- No Rounded Corners for New buttons
+- New functions and variables should be declared in kebab-case
 
 ## Architecture Overview
 
