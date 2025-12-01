@@ -2,9 +2,12 @@ import { useState } from 'react'
 import './StudyMode.css'
 
 function StudyMode({ cards, onResponse, onExit }) {
+  // This is where the components starts
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [completedCount, setCompletedCount] = useState(0)
+
+  // Logic begins
 
   if (!cards || cards.length === 0) {
     return (
@@ -19,7 +22,7 @@ function StudyMode({ cards, onResponse, onExit }) {
   }
 
   const currentCard = cards[currentIndex]
-
+  // Midway through the logic
   const handleResponse = (remembered) => {
     onResponse(currentCard.id, remembered)
 
