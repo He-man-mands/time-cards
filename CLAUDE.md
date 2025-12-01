@@ -4,5 +4,4 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Guidelines
 
-- No Rounded Corners for New buttons
-- New functions and variables should be declared in kebab-case
+- We are on V1 of this project, so whenever creating a component add V1 at the end of name, example if the component needs to be called CustomButton, call it CustomButtonV1 instead
