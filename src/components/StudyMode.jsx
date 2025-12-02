@@ -9,6 +9,16 @@ function StudyMode({ cards, onResponse, onExit }) {
 
   // Logic begins
 
+  // Comment 1
+  // Comment 2
+  // Comment 3
+  // Comment 4
+  // Comment 5
+  // Comment 6
+  // Comment 7
+  // Comment 8
+  // Comment 9
+
   if (!cards || cards.length === 0) {
     return (
       <div className="study-complete">
@@ -20,6 +30,17 @@ function StudyMode({ cards, onResponse, onExit }) {
       </div>
     )
   }
+
+  // Comment 10
+  // Comment 11
+  // Comment 12
+  // Comment 13
+  // Comment 14
+  // Comment 15
+  // Comment 16
+  // Comment 17
+  // Comment 18
+  // Comment 19
 
   const currentCard = cards[currentIndex]
   // Midway through the logic
